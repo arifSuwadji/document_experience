@@ -1,3 +1,5 @@
+# Command Postgres
+```
 login postgre sql
 	psql -U postgres
 	
@@ -62,3 +64,4 @@ CREATE TABLE detail_biaya_kirim (
 \pset pager off
 
 pg_dump -t table -s
+```

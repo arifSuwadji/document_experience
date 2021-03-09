@@ -1,7 +1,9 @@
+# Connect VPN
+```
 vpn client:
 config file:
-server sra.telkomsel.co.id
-username 19333883
+server your-domain
+username your-username
 reauth yes
 
 connect vpn
@@ -9,3 +11,4 @@ snx -f /path/config
 
 disconnect vpn
 nek disconnect snx -d
+```
